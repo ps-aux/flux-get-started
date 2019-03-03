@@ -8,6 +8,8 @@ spec:
     metadata:
       labels:
         app: hello
+      annotations:
+        flux.weave.works/automated: "true"
     spec:
       containers:
         - image: gcr.io/kuar-demo/kuard-amd64:1
